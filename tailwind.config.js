@@ -22,7 +22,9 @@ module.exports = {
       black: colors.black,
       white: colors.white,
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [
     preline

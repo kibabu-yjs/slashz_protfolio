@@ -25,7 +25,7 @@ export default function Page() {
   }, [])
 
   return (
-        <div className="flex flex-col h-screen max-h-screen justify-center items-center bg-black gap-10 bg-no-repeat bg-right-bottom" >
+        <div className="flex flex-col h-screen max-h-screen justify-center items-center bg-black gap-10 bg-no-repeat bg-left bg-[url('/pexels.jpg')]" style={{backgroundSize: '100px'}}>
           
           <div className="absolute top-10 right-7 md:invisible">
             <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-offcanvas-custom-backdrop-color" data-hs-overlay="#hs-offcanvas-custom-backdrop-color" >
