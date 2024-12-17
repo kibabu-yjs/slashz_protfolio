@@ -5,7 +5,6 @@ import Image from "next/image";
 import NavLink from "./components/navlink";
 import SocialIcons from "./components/social-icons";
 import Drawer from "./components/drawer";
-import { URL } from "url";
 
 export default function Page() {
 
@@ -26,7 +25,7 @@ export default function Page() {
   }, [])
 
   return (
-        <div className="flex flex-col h-screen max-h-screen justify-center items-center bg-black gap-10 bg-no-repeat bg-right-bottom" style={{background: `${url('')}`}}>
+        <div className="flex flex-col h-screen max-h-screen justify-center items-center bg-black gap-10 bg-no-repeat bg-right-bottom" >
           
           <div className="absolute top-10 right-7 md:invisible">
             <button type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-offcanvas-custom-backdrop-color" data-hs-overlay="#hs-offcanvas-custom-backdrop-color" >
