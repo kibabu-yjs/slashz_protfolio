@@ -1,3 +1,7 @@
+'use client';
+import Drawer from "../components/drawer";
+import LayOutNav from "../components/navbar";
+
 export default function Page({
     children,
   }: Readonly<{
@@ -5,7 +9,9 @@ export default function Page({
   }>){
 
     return <>
-        <div className="bg-black flex flex-1">
+        <div className="bg-black h-screen">
+            <LayOutNav />
+            <Drawer />
             {children}
         </div>
     </>

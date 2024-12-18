@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Comfortaa } from "next/font/google";
 import "./globals.css";
 import PrelineScript from "./components/PrelineScript";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const comf = Comfortaa({
   subsets: ["latin"],
 });
 
@@ -22,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} bg-transparent`}>
+      <body className={`${comf.className} bg-transparent`}>
         {children}
       </body>
       <PrelineScript />
